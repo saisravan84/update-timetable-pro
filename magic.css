@@ -1,0 +1,60 @@
+.boxdiv{
+
+font-size:24px;
+
+transition: all 0.3s;
+}
+.text{
+display:inline;
+font-size:24px;
+}
+td,th{
+width:500px;
+height:70px;
+text-align:center;
+}
+#faculty_name{
+width:400px;
+text-align:right;
+}
+#short{
+width:300px;
+text-align:center;
+color:red;
+}
+
+
+button {
+    background-color:#6699ff;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+	border-radius: 6px;
+}
+.button:hover {
+    background-color:  #b3b3ff;
+}
+#date1,#date2{
+border-radius: 6px;
+}
+
+hr{
+border-color:#ffa64d;
+}
+body{
+	background-color:#fff7e6;
+}
+#dept,#facu,#org{
+border-radius: 6px;
+}
+#facu{
+	width:200px;
+}
+
+

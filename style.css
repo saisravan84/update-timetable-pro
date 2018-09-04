@@ -1,0 +1,71 @@
+body{
+	margin:0;
+	padding:0;
+	background-color:rgba(153, 202, 255,0.2);
+}
+.btn-register,.btn-register:visited{
+	background-color:#42f4b9;
+	color:#777;
+	padding: 20px 40px;
+	border-radius:50px;
+	text-decoration:none;
+	text-transform:uppercase;
+	font-size:20px;
+	font-weight:100;
+	border: 1px solid #ccc;
+	padding:15px;
+}
+.btn-submit{
+	background-color:#42f4b9;
+	color:#777;
+	text-transform:uppercase;
+	font-size:20px;
+	font-weight:100;
+	margin-bottom:20px;
+}
+
+.btn-submit:hover{
+	transform: translateY(-3px);
+	box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.btn-submit:active{
+	transform: translateY(-1px);
+	box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+	outline:none;
+}
+.btn-register:hover{
+	transform: translateY(-3px);
+	box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.btn-register:active{
+	transform: translateY(-1px);
+	box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+	outline:none;
+}
+.login-form{
+	text-align:center;
+	background:#fff;
+	margin:20px auto;
+	width:60%;
+	height:320px;
+	padding-top:10px;
+	box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+	border-radius:20px;
+}
+input{
+	margin:10px;
+	padding:15px;
+	width:70%;
+	border-radius:50px;
+	font-size:20px;
+	color:#777;
+	 border: 1px solid #ccc;
+}
+
+input:focus{
+	outline:none;
+}
+
+

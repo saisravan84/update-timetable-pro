@@ -1,0 +1,56 @@
+body{
+	background-color:#fff7e6;
+}
+.dis{
+	height: 200px;
+	background: #ffa64d;
+	border-radius: 6px;
+}
+button {
+    background-color:#6699ff;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+	border-radius: 6px;
+}
+.button:hover {
+    background-color:  #b3b3ff;
+}
+select,input[type=date]{
+border-radius: 6px;
+width:250px;
+margin: 10px;
+}
+
+.f1{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+}
+
+.unch{
+	font-size: 25px;
+	color:#6699ff;
+}
+.top{
+	height: 50px;
+	width: 100%;
+	background:#ffa64d; 
+}
+.top p{
+	font-size: 40px;
+	font-weight: bold;
+	font-family: sans-serif;
+	color: #fff;
+	padding: 5px;
+	display: inline;
+	padding-left: 200px;
+}
